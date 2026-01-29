@@ -14,24 +14,66 @@
             <ul>
                 <li><a href="#" data-section="home">Home</a></li>
                 <li><a href="#" data-section="html">HTML</a></li>
+                <li><a href="#" data-section="css">CSS</a></li>
                 <li><a href="#" data-section="js">JavaScript</a></li>
-                <li><a href="#" data-section="js">JQuery</a></li>
+                <li><a href="#" data-section="jquery">JQuery</a></li>
                 <li><a href="#" data-section="php">PHP</a></li>
                 <li><a href="#" data-section="git">Git</a></li>
-                <li><a href="#" data-section="git">Drupal</a></li>    
+                <li><a href="#" data-section="drupal">Drupal</a></li>
+                <li><a href="#" data-section="projects">Project Ideas</a></li>     
             </ul>
         </nav>
     </header>
     <hr>
-    <main>
-        <section id="home">
-            <h2>Welcome to Your Website</h2>
-            <p>This is the main content area of your homepage.</p>
-        </section>
+    <main class="content-wrapper">
 
-        <section id="html">
-            <h2>HTML Notes</h2>
-            <nav>
+        <aside id="vertical-sidebar">
+            <nav id="html-sub-nav" class="sub-nav">
+                <h3>HTML</h3>
+                <ul>
+                    <li><a href="#" data-section="one">Cookbook</a></li>
+                    <li><a href="#" data-section="one">Boiler Plate</a></li>
+                    <li><a href="#" data-section="one">Elements</a></li>
+                    <li><a href="#" data-section="one">Attributes</a></li>
+                    <li><a href="#" data-section="one">#</a></li>
+                    <li><a href="#" data-section="one">##</a></li>
+                </ul>
+            </nav>
+            <nav id="js-sub-nav" class="sub-nav">
+                <h3>JavaScript</h3>
+                <ul>
+                    <li><a href="#" data-section="one">Cookbook</a></li>
+                    <li><a href="#" data-section="one">Syntax</a></li>
+                    <li><a href="#" data-section="one">DOM</a></li>
+                    <li><a href="#" data-section="one">Classes</a></li>
+                    <li><a href="#" data-section="one">Control flow</a></li>
+                    <li><a href="#" data-section="one">Functions</a></li>
+                    <li><a href="#" data-section="one">Promises</a></li>
+                </ul>
+            </nav>
+            <nav id="css-sub-nav" class="sub-nav">
+                <h3>CSS</h3>
+                <ul>
+                    <li><a href="#" data-section="one">Cookbook</a></li>
+                    <li><a href="#" data-section="one">Flexbox</a></li>
+                    <li><a href="#" data-section="one">Display</a></li>
+                    <li><a href="#" data-section="one">Margin and Padding</a></li>
+                    <li><a href="#" data-section="one">Columns</a></li>
+                    <li><a href="#" data-section="one">Text</a></li>
+                </ul>
+            </nav>
+            <nav id="jquery-sub-nav" class="sub-nav">
+                <h3>JQuery</h3>
+                <ul>
+                    <li><a href="#" data-section="one">Events</a></li>
+                    <li><a href="#" data-section="one">Effects</a></li>
+                    <li><a href="#" data-section="one">Ajax</a></li>
+                    <li><a href="#" data-section="one">Plugins</a></li>
+                    <li><a href="#" data-section="one">Performance</a></li>
+                </ul>
+            </nav>
+            <nav id="php-sub-nav" class="sub-nav">
+                <h3>PHP</h3>
                 <ul>
                     <li><a href="#" data-section="one">One</a></li>
                     <li><a href="#" data-section="one">Two</a></li>
@@ -40,139 +82,33 @@
                     <li><a href="#" data-section="one">Five</a></li>
                 </ul>
             </nav>
-            <p>Information about your company or yourself goes here.</p>
-            <button id="about-button">Click me</button>
-        </section>
-
-        <section id="address">
-            <h2>Address</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="article">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="aside">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="footer">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="header">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="hgroup">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="main">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="nav">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="section">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="search">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="blockquotes">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="dd">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send</button>
-            </form>
-        </section>
+            <nav id="git-sub-nav" class="sub-nav">
+                <h3>Git</h3>
+                <ul>
+                    <li><a href="#" data-section="one">One</a></li>
+                    <li><a href="#" data-section="one">Two</a></li>
+                    <li><a href="#" data-section="one">Three</a></li>
+                    <li><a href="#" data-section="one">Four</a></li>
+                    <li><a href="#" data-section="one">Five</a></li>
+                </ul>
+            </nav>
+            <nav id="drupal-sub-nav" class="sub-nav">
+                <h3>Drupal</h3>
+                <ul>
+                    <li><a href="#" data-section="one">One</a></li>
+                    <li><a href="#" data-section="one">Two</a></li>
+                    <li><a href="#" data-section="one">Three</a></li>
+                    <li><a href="#" data-section="one">Four</a></li>
+                    <li><a href="#" data-section="one">Five</a></li>
+                </ul>
+            </nav>
+        </aside>
+      
     </main>
 
     <footer>
-        <p>&copy; 2026 Your Website Name. All rights reserved.</p>
+        <p>Zach's Notes - 2026</p>
     </footer>
     <script src="script.js" defer></script>
-    <script src="about.js" defer></script>
 </body>
 </html>
