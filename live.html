@@ -6,6 +6,7 @@
     <title>Your Website Title</title>
     <meta name="description" content="A brief description of your website">
     <link rel="stylesheet" href="ztyle.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
     <header>
@@ -31,12 +32,10 @@
             <nav id="html-sub-nav" class="sub-nav">
                 <h3>HTML</h3>
                 <ul>
-                    <li><a href="#" data-section="one">Cookbook</a></li>
-                    <li><a href="#" data-section="one">Boiler Plate</a></li>
-                    <li><a href="#" data-section="one">Elements</a></li>
-                    <li><a href="#" data-section="one">Attributes</a></li>
-                    <li><a href="#" data-section="one">#</a></li>
-                    <li><a href="#" data-section="one">##</a></li>
+                    <li><a href="#html-cookbook">Cookbook</a></li>
+                    <li><a href="#html-boilerplate">Boiler Plate</a></li>
+                    <li><a href="#html-elements">Elements</a></li>
+                    <li><a href="#html-attributes">Attributes</a></li>
                 </ul>
             </nav>
             <nav id="js-sub-nav" class="sub-nav">
@@ -65,11 +64,13 @@
             <nav id="jquery-sub-nav" class="sub-nav">
                 <h3>JQuery</h3>
                 <ul>
-                    <li><a href="#" data-section="one">Events</a></li>
-                    <li><a href="#" data-section="one">Effects</a></li>
-                    <li><a href="#" data-section="one">Ajax</a></li>
-                    <li><a href="#" data-section="one">Plugins</a></li>
-                    <li><a href="#" data-section="one">Performance</a></li>
+                    <li><a href="#" data-section="jquery-selectors">Setup</a></li>
+                    <li><a href="#" data-section="jquery-selectors">Selectors</a></li>
+                    <li><a href="#" data-section="jquery-events">Events</a></li>
+                    <li><a href="#" data-section="jquery-effects">Effects</a></li>
+                    <li><a href="#" data-section="jquery-ajax">Ajax</a></li>
+                    <li><a href="#" data-section="jquery-plugins">Plugins</a></li>
+                    <li><a href="#" data-section="jquery-performance">Performance</a></li>
                 </ul>
             </nav>
             <nav id="php-sub-nav" class="sub-nav">
@@ -103,12 +104,105 @@
                 </ul>
             </nav>
         </aside>
-      
+        
+        <section id="html" class = "main-content-section">
+            <article id="html-cookbook">
+                <h3>Cookbook</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+            <article id="html-boilerplate">
+                <h3>Boiler Plate</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+            <article id="html-boilerplate">
+                <h3>Boiler Plate</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+            <article id="html-boilerplate">
+                <h3>Boiler Plate</h3>
+                <p>Example Text</p>
+            </article>
+        </section>
+
+        <section id="css" class = "main-content-section">
+            <article id="html-cookbook">
+                <h3>Cookbook</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+        </section>
+
+        <section id="js" class = "main-content-section">
+            <article id="html-cookbook">
+                <h3>Cookbook</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+        </section>
+
+        <section id="jquery" class = "main-content-section">
+            <article id="jquery-setup">
+                <h3>Setup & CDN</h3>
+                <p>To use jQuery, include this script in your head:</p>
+                <code>&lt;script src="https://code.jquery.com/jquery-3.7.1.min.js"&gt;&lt;/script&gt;</code>
+            </article>
+            <article id="jquery-selectors">
+                <h3>Selectors</h3>
+                <p>jQuery uses CSS-style selectors to find elements.</p>
+                    <ul>
+                        <li><code>$('p')</code> selects all paragraphs.</li>
+                        <li><code>$('#test')</code> selects element with id="test".</li>
+                        <li><code>$('.menu')</code> selects elements with class="menu".</li>
+                    </ul>
+            </article>
+            <hr>
+            <article id="jquery-events">
+                <h3>Events Demo</h3>
+                <p>Click the buttons below to see jQuery in action.</p>
+                
+                <!-- Elements to manipulate -->
+                <div id="demo-box" style="width: 200px; height: 100px; background-color: lightblue; padding: 20px; margin-bottom: 10px;">
+                    demo box
+                </div>
+
+                <!-- Buttons to trigger actions -->
+                <button id="btn-hide">Hide Box</button>
+                <button id="btn-show">Show Box</button>
+                <button id="btn-toggle">Toggle Color</button>
+            </article>
+            <hr>
+            <article id="jquery-effects">
+                <h3>Effects</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+            <article id="jquery-ajax">
+                <h3>Ajax</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+            <article id="jquery-plugins">
+                <h3>Plugins</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+            <article id="jquery-performance">
+                <h3>Performance</h3>
+                <p>Example Text</p>
+            </article>
+            <hr>
+        </section>
+
+
     </main>
 
     <footer>
         <p>Zach's Notes - 2026</p>
     </footer>
     <script src="script.js" defer></script>
+    <script src="jquery.js" defer></script>
 </body>
 </html>
